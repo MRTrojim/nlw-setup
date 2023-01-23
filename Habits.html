@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!-- um comentario se escreve utilizando essa tag -->
+<head>
+<!-- abaixo temos o link da font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+<!-- o meta e junto do meta vem as configurações da pagina-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./Habits.css ">
+<!-- o link acima é utilizado para linkar o CSS ao HTML-->
+
+  <title>Habits</title>
+</head>
+  <body>
+    <header>
+
+<!-- Header é o cabeçalho -->      
+ 
+      <img src="./assets/logo.svg" alt="Logo marca do aplicativo Habits" />
+
+  <button>
+    <img src="./assets/plus.svg" alt="">
+
+
+<!-- transformar o registar o meu dia em div para ajustar ele no CSS-->
+    <div>
+      Registrar o meu dia
+    </div>
+    
+    </button>
+    </header>
+    
+    <form id="form-habits">
+      <div class="habits">
+        <div class="habit" data-name="run">🏃‍♂️</div>
+        <div class="habit" data-name="water">💧</div>
+        <div class="habit" data-name="food">🍎</div>
+        <div class="habit" data-name="journal">📕</div>
+        <div class="habit" data-name="takePills">💊</div>
+      </div>
+
+      <div class="days"></div>
+
+
+    </form>
+
+<!-- A sentença abaixo linka a biblioteca no HTML -->
+    <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+    
+<!-- A setença abaixo linka o JavaScript no HTML-->
+    <script src="./script.js"></script>
+
+  </body>
+
+
+
+</html>
